@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/esFisica.css">
+    <title>ProyectoU3</title>
+</head>
+<body>
+    <div class="title2">
+        <h3>Calcula fuerza de un objeto cuando cae en caida libre</h3>
+    </div>
+    <hr size="3" color="white">
+
+    <header class="navegacion">
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Returna a Inicio</a></li>
+                <li><a href="funDif.html">Calcula una Funcion de calculo diferencial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr size="3" color="white">
+
+    <div class="explain">
+        <u>
+            A qui podras clacular la fuerza de objeto (W) en Newtons (N) 
+            para ello tendras que utilizar los datos de masa del cuerpo (m) 
+            y tener el valor de la fuerza gravitatoria (g).
+        </u>
+    </div>
+
+    <h4>Calcula Fuerza (w)</h4>
+    <br>
+    <form action="" id="myFuerza">
+        <p>Introduce masa de objeto:</p> <form><input type="text" id="masa">
+        <br><br>
+        <p>Introduce furza gravitatoria:</p> <input type="text"  id="gravedad">
+        <br><br>
+        <p>Funcion:</p> <input type="button" value="calcularW" onclick="alert(calcularW());">
+        <input type="reset" value="reiniciar" onclick="resetear">
+    </form>
+    <script src="/js/funFisica.js"></script>
+   
+
+
+    
+</body>
+</html>

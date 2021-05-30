@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color:rgb(3, 3, 59);
+}
+
+.contenedor > header > h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: floralwhite;
+    background-color:darkgoldenrod;
+    width: 1000px 200px;
+    padding: 20px 15px;
+    
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.navegacion > .menu > ul{
+    list-style: none;
+}
+
+.navegacion > .menu > ul > li{
+    display: inline-block;
+}
+
+.navegacion > .menu > ul > li > a{
+    text-align: justify;
+    color: whitesmoke;
+    float: left;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: unset;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: initial;
+    padding: 15px 20px;
+    margin: 12px;
+}
+
+.navegacion > .menu > ul > li > a:hover{
+    color: orange;
+    transition: all .3s;
+}
+
+.alumno{
+    background-color: whitesmoke;
+    margin: 60px;
+    max-width: 300px;
+    padding: 100px;
+}
+
+.alumno > p{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 18px;
+    text-size-adjust: inherit;
+    text-align: center;
+    color: orange;
+}
+
+.text > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: orange;
+    font-style: italic;
+    font-variant: normal;
+    text-align: justify;
+    paint-order:normal;
+
+}
+

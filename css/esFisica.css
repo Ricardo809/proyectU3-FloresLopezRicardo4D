@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color:rgb(3, 3, 59);
+}
+
+.title2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    color: floralwhite;
+    background-color: darkgoldenrod;
+    width: 1000px 200px;
+    padding: 20px 15px;
+}
+
+.navegacion{
+    background-color: wheat;
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.navegacion > .menu > ul{
+    list-style: none;
+}
+
+.navegacion > .menu > ul > li{
+    display: inline-block;
+}
+
+.navegacion > .menu > ul > li > a{
+    text-align: justify;
+    color: black;
+    float: left;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: unset;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: initial;
+    padding: 15px 20px;
+    margin: 12px;
+}
+
+.navegacion > .menu > ul > li > a:hover{
+    color: orangered;
+    transition: all .3s;
+}
+
+.explain{
+    background-color: grey;
+    margin: 60px;
+    max-width: 300px;
+    paint-order: normal;
+    padding: 100px;
+    padding-right: 100px;
+    position: relative;
+    align-content: space-around;
+}
+
+.explain > u{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: honeydew;
+    font-style: italic;
+    font-variant: normal;
+    text-align: justify;
+    paint-order:normal;
+    text-decoration: none;
+
+}
+
+form > input{
+    border-color: red;
+    font-family: serif;
+    width: 20%;
+    font-size: 16px;
+    font-style: italic;
+}
+
+form > p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    font-style: oblique;
+    text-align: justify;
+    color: honeydew;
+    padding: 10px;
+
+}
+
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: honeydew;
+    font-weight: bold;
+    text-align: justify;
+}
+
+
